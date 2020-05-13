@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    color: white;
+}
+.location, .temp{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.temp{
+     flex-direction: column;
+}
+
+.deegre{
+    display: flex;
+    align-items: center;
+}
+.deegre span{
+    margin: 10px;
+    font-size: 30px;
+}
+.deegre h2{
+    font-size: 40px;
+}
+.timezone{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.tempDescription{
+    font-family: 'Permanent Marker', cursive;
+}
+.tempDeegre span{
+    font-family: 'Caveat', cursive;
+}
